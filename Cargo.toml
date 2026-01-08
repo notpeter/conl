@@ -6,3 +6,10 @@ edition = "2021"
 license = "MIT"
 description = "CONL is a post-modern configuration language"
 repository = "https://github.com/ConradIrwin/conl"
+
+[dependencies]
+regex = "1"
+
+[[bin]]
+name = "conlschema"
+path = "src/bin/conlschema.rs"
