@@ -9,7 +9,3 @@ repository = "https://github.com/ConradIrwin/conl"
 
 [dependencies]
 regex = "1"
-
-[[bin]]
-name = "conlschema"
-path = "src/bin/conlschema.rs"
